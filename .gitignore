@@ -1,0 +1,17 @@
+# SSH private keys
+*.pem
+id_rsa
+id_ed25519
+
+# AWS credentials
+.aws/
+credentials
+
+# Local Ansible configuration
+inventory
+ansible.cfg
+
+# Temporary files
+*.retry
+*.swp
+*.swo
